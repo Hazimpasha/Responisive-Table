@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0%;
+    
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(237, 224, 252);
+
+}
+
+body {
+    
+    display: flex;
+    justify-content: center;
+    object-fit: cover ;
+    background-repeat: no-repeat;
+
+}
+
+table, th,td{
+ padding: 0.1rem;
+ background-color: rgb(241, 254, 241);
+
+}
+
+main.table{
+    width: 200vh;
+    height: 90vh;
+    backdrop-filter: blur(7px);
+    border-radius: 80rem;
+    overflow-wrap: inherit;
+}
+
+tr th{
+   width: auto;
+   max-height: 96%;
+   background-color: #7f0ee8;
+   border-radius: 2px;;
+ 
+}
+.colll table {
+    border-collapse: collapse;
+    overflow: auto;
+}
+
+h1{
+    width: auto;
+    height: 10%;
+    background-color: rgb(145, 78, 212);
+    padding: 0.6%;
+    margin: 1%;
+    overflow: auto;
+    justify-content: center;
+    
+}
+.table__body::-webkit-scrollbar-thumb{
+    border-radius: 5rem;
+    background-color: #aad7aa;
+
+}
+
+table td{
+    padding: 1rem;
+
+}
+
+th{
+    position: sticky;
+    top: 0;
+    left: 0;
+    border: 1px solid;
+    
+
+}
+.table, table{
+    width: 99.5%;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    margin-right: 1px;;
+}
+
+ tbody :hover{
+    color: rgb(17, 207, 224);
+    text-transform:uppercase;
+    margin-right: 10px;
+    margin-left:none;
+ }
+ tbody {
+    border-radius: 10%;;
+ }
+
+ .table body{
+    border-radius: 10%;
+ }
+
+ td{
+    border: 1px solid;
+    margin-bottom: 0%;
+    
+ }
+ td button{
+    background-color: rgb(10, 174, 244);
+    border-radius: 1px;
+    overflow: auto;
+    color: rgb(4, 33, 41);
+   }  
+
+ td button :hover{
+    color: rgb(9, 27, 27);
+
+ }
+ tbody tr th:nth-child(even){
+    background-color: #d1d5d8;
+ }
+
+ .btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: white;
+
+    gap: 10px;
+ }
+
+ @media(max-width:500px){
+    .table thead{
+        display: none;
+    }
+    .table,.table tbody, table tr, table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 15px;
+
+    }
+    table td:before{
+        position: absolute;
+        left: 0%;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+ }
+ .dive wrapper{
+    background-color: aqua;
+ }
